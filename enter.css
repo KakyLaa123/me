@@ -1,0 +1,98 @@
+main{
+    background: url("img/image\ 4.png");
+    padding: 163px 0;
+    background-size: 100%;
+}
+
+.enter-tbl{
+    margin: 0 auto;
+    max-width: 380px;
+    box-sizing: border-box;
+    padding: 40px 30px 32px 30px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+}
+
+input{
+    width: 100%;
+}
+
+main h1{
+    font-size: 24px;
+    color: #1F2041;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+input:not(.ent input):not(footer input){
+    font-size: 14px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    padding: 12px 0 12px 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input:not(.ent input)::placeholder{
+    color:rgba(31, 32, 65, 0.25)
+}
+
+input:first-of-type:not(.ent input){
+    margin-bottom: 10px;
+}
+
+input:nth-of-type(2):not(.ent input){
+    margin-bottom: 20px;
+}
+
+.ent input{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    padding: 0 0 0 10px;
+}
+
+.ent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 14px 20px 15px 20px;
+    background: linear-gradient(90deg, #BC9CFF, #8BA4F9);
+    box-sizing: border-box;
+    border-radius: 22px;
+    text-align: center;
+}
+
+
+.reg p{
+    font-size: 14px;
+    margin: 0;
+}
+
+.reg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+a.regbtn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    padding: 12px 24px 13px 24px;
+    border-radius: 20px;
+    color: #BC9CFF;
+}
+
+.reg div{
+    padding: 10px 2px 14px 2px;
+    border-radius: 22px;
+    background:  linear-gradient(90deg, #BC9CFF, #8BA4F9);
+}

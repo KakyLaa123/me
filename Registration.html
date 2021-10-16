@@ -5,6 +5,7 @@
             Регистрация
         </title>
         <link rel="stylesheet" href="HaF.css">
+        <link rel="stylesheet" href="Registration.css">
     </head>
     <body>
         <header>
@@ -59,6 +60,29 @@
             </div>
         </div>
         </header>
+        <main>
+            <div class="reg">
+                <ul>
+                    <li><h1>Регистрация аккаунта</h1></li>
+                    <form method="post" action="#">
+                        <li><input type="text" name="name" placeholder="Имя"></li>
+                        <li><input type="text" name="fam" placeholder="Фамилия"></li>
+                        <li><label class="radiobtn" id="male"><input type="radio" name="pol" value="male" id="male"></label><label for="male">Мужчина</label>
+                            <label class="radiobtn" id="female"><input type="radio" name="pol" value="female" id="female"></label><label for="female">Женщина</label></li>
+                        <li><label for="bd"><h2>дата рождения</h2></label></li>
+                        <li><input type="date" name="bd" id="bd" placeholder="дд.мм.гггг."></li>
+                        <li><label><h2>данные для входа в сервис</h2></label></li>
+                        <li><input type="email" name="mail" placeholder="Email"></li>
+                        <li><input type="password" name="pass" placeholder="Пароль"></li>
+                        <li class="spec"><label for="SP" class="switch"><input type="checkbox" name="SP" id="SP"><span class="toggle"></span></label><p>Получать спецпредложения</p></li>
+                        <li><div class="registr"><input type="submit" name="Reg" value="Зарегистрироваться"><object data="svg/arrow_forward_w.svg" type=""></object></div></li>
+                        <li><div class="Akk">
+                            <p>Уже есть аккаунт на Toxin</p><div><a class="btn-ent" href="Enter.html">Войти</a></div></li>
+                        </div>
+                    </form>
+                </ul>
+            </div>
+        </main>
         <footer>
             <div class="footer-all">
                     <div class="footer-left">    
