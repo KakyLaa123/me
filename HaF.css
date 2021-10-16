@@ -1,0 +1,245 @@
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+header{
+    max-width: 1920px;
+    max-height: 70px;
+    padding: 15px 140px;
+}
+
+.header-all{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    max-height: 34px;
+    align-items: center;
+}
+
+.header-right ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.header-right li, .header-right li select, .footer-list li{
+    padding: 0 0 0 20px;
+    font-size: 14px;
+}
+
+.header-right li:first-of-type{
+    padding: 0;
+}
+
+.header-right li a:hover, .header-right li select:hover, .footer-list li a:hover{
+    font-weight: bold;
+    opacity: 75%;
+}
+
+.header-right li a, .header-right li select, .footer-list li:not(:first-of-type) a{
+    text-decoration: none;
+    color: #1F2041;
+    opacity: 50%;
+    border:0;
+    padding: 0;
+}
+
+.btn {
+    position: relative;
+    border-radius: 22px;
+    text-align: center;
+    padding: 9px 20px 10px 19px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+  
+.btn::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: linear-gradient(90deg, #BC9CFF, #8BA4F9);
+    border-radius: 22px;
+    z-index: -1;
+}
+
+.enter{
+    background-color: white;
+    color: #BC9CFF;
+    margin: 0 20px;
+    padding: 9px 20px 10px 20px;
+}
+
+.logo svg:nth-of-type(2){
+    position: absolute;
+    left: 149.41px;
+    top: 30.29px;
+}
+
+.logo object{
+    position: absolute;
+    left: 161.47px;
+    top: 30.29px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo div{
+    display: flex;
+    align-items: center;
+    padding-left: 12.5px;
+}
+
+body{
+    margin: 0;
+}
+
+footer{
+    background-color: white;
+    max-width: 1920px;
+    padding: 0px 140px;
+}
+
+.footer-all{
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: top;
+    padding: 100px 0;
+    max-height: 372px;
+    justify-content: space-between;
+}
+.footer-left{
+    display:flex;
+    max-width: 260px;
+}
+
+.logo-into svg{
+    position:relative;
+    left: -31px;
+    top: 2.5px;
+}
+
+.logo-into object{
+    position: relative;
+    left: -37px;
+    top: -3.5px;
+}
+
+.footer-right{
+    display:flex;
+    max-width: 1340px;
+}
+
+.footer-list{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    display:flex;
+    align-items: center;
+}
+
+footer ul{
+    min-width: 150px;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    padding: 0 0 0 40px;
+}
+
+footer .footer-left ul, header ul{
+    padding-left: 0;
+    margin: 0;
+}
+
+footer p:not(.footer-copyright p){
+    margin:0;
+    line-height: 24px;
+}
+
+footer p{
+    color: #1F2041;
+    opacity: 75%;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-list li h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #1F2041;
+    margin:0;
+    padding: 0 0 21px 0;
+    font-weight: bold;
+}
+
+footer .footer-all li{
+    padding:0;
+}
+
+footer li:not(.footer-right li:first-of-type):not(.footer-right li:last-of-type){
+    padding-bottom: 20px;
+}
+
+.footer-copyright{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 0;
+}
+
+footer ul:last-of-type{
+    max-width: 260px;
+}
+
+footer li .email{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    min-width: 260px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    font-size: 14px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
+    max-height: 44px;
+}
+
+.email input:first-of-type{
+    padding: 0;
+}
+
+.email button{
+    background: transparent;
+    border: 0;
+    padding: auto 14px;
+}
+
+input{
+    border: 0;
+}
+
+footer li input::placeholder{
+    color: rgba(31, 32, 65, 0.25);
+}
+
+.ss a:not(:last-of-type){
+    padding-right: 20px;
+}
