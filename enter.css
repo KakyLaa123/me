@@ -1,5 +1,5 @@
 main{
-    background: url("img/image\ 4.png");
+    background: url("img/image\ 4.png") no-repeat;
     padding: 163px 0;
     background-size: 100%;
 }
