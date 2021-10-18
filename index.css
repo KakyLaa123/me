@@ -13,6 +13,9 @@ main{
     background-color: white;
     box-sizing: border-box;
     margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
 }
 
 .podbor h1{
@@ -89,8 +92,12 @@ main{
     font-size: 14px;
 }
 
-.guests_lists-non{
+.guests_lists{
     display:none;
+}
+
+.guests_lists-shown{
+    display:inherit;
 }
 
 .guests_list .plus, .guests_list .min{
@@ -100,9 +107,10 @@ main{
     border: 1px solid rgba(31, 32, 65, 0.5);
     font-size: 18px;
     color: rgba(31, 32, 65, 0.5);
+    background-color: transparent;
 }
 
-.guests_lists .guests_list .min-dis{
+.guests_lists .guests_list .min:disabled{
     width: 30px;
     height: 30px;
     border-radius: 50%;
