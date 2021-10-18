@@ -61,6 +61,7 @@ minus_b.setAttribute("disabled", "disabled");
     }
     values.onclick = function(){
         guests.classList.toggle("guests_lists-shown");
+        values.classList.toggle("values_shown");
     }
 let guest = " гость";
 

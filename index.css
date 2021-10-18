@@ -92,6 +92,22 @@ main{
     font-size: 14px;
 }
 
+.values_shown{
+    background-color: transparent;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    color: rgba(31, 32, 65, 0.75);
+    font-size: 14px;
+}
+
 .guests_lists{
     display:none;
 }
@@ -124,6 +140,7 @@ main{
     padding: 7px 7px 13px 14px;
     border: 1px solid rgba(31, 32, 65, 0.25);
     margin: 0;
+    border-radius: 0 0 2px 2px;
 }
 
 .guests_lists .guests_list{
@@ -145,6 +162,13 @@ main{
 
 .guests_lists li:last-of-type{
     padding-top: 20px;
+}
+
+.guests_list{
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #1F2041;
 }
 
 .guests_list .clear, .guests_list .sub{
