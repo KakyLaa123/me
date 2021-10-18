@@ -24,7 +24,6 @@ main{
     opacity: 25%;
     padding: 13px 0 13px 15px;
     box-sizing: border-box;
-    color: #1f2041;
 }
 
 .reg input::placeholder{
@@ -120,7 +119,7 @@ input[type="radio"]:checked + div{
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background:  linear-gradient(90deg, #BC9CFF, #8BA4F9);
+    background: linear-gradient(90deg, #BC9CFF, #8BA4F9);
 }
 
 input[type="radio"]:checked + .radiobtn{
