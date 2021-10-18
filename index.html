@@ -66,23 +66,19 @@
                 <!--<form method="post" action="#">--->
                     <div class="period">
                         <div class="dates">
-                            <div class="arr">
-                                <label for="arr">Прибытие</label>
-                                <input type="date" name="arr" id="arr">
-                            </div>
-                            <div class="dep">
-                                <label for="dep">Выезд</label>
-                                <input type="date" name="dep" id="dep">
-                            </div>
+                            <form method="post" action="#">
+                                <div class="arr">
+                                    <label for="arr">Прибытие</label>
+                                    <input type="date" name="arr" id="arr">
+                                </div>
+                                <div class="dep">
+                                    <label for="dep">Выезд</label>
+                                    <input type="date" name="dep" id="dep" value="">
+                                </div>
+                            </form>
                         </div>
                         <label for="guests">Гости</label>
                         <br>
-                        
-                        
-                        
-                        
-                        
-                        
                         <div class="guests">
                             <div class="guests-val">
                                 <button class="values">Сколько гостей<object data="svg0/expand_more.svg"></object></button>
@@ -96,15 +92,11 @@
                                 </ul>
                             </div>
                         </div>
-                    
-                    
-                    
-                    
-                    
-                    
                     </div>
-                    <div class="srch"><input type="submit" name="srch" value="ПОДОБРАТЬ НОМЕР"><object data="svg/arrow_forward_w.svg" type=""></object></div>
-                <!--</form>-->
+                    <form method="post" action="#">
+                        <input type="number" name="guests-value" class="guests-value">
+                        <div class="srch"><input type="submit" name="srch" value="ПОДОБРАТЬ НОМЕР" class="showRez"><object data="svg/arrow_forward_w.svg" type=""></object></div>
+                    </form>
             </div>
         </main>
         <footer>

@@ -68,12 +68,15 @@ function getEventType(valuesVal){
 let guest = " гость";
 
 subm.onclick = function(){
-    if(matureVal + childVal + babyVal >= 2, matureVal + childVal + babyVal == 0){
+    if(matureVal + childVal + babyVal >= 2){
         guest = " гостей";
     }else{
         guest = " гость";
     }
     values.textContent = matureVal + childVal + babyVal + guest;
+    if(matureVal + childVal + babyVal == 0){
+        values.textContent = "Сколько гостей"
+    }
 }
 
 clear.onclick = function(){
@@ -88,3 +91,8 @@ clear.onclick = function(){
     minus_c.setAttribute("disabled", "disabled");
     minus_b.setAttribute("disabled", "disabled");
 }
+
+let showRez = document.querySelector(".showRez");
+    showRez.onclick = function(){
+        alert(guestsValue);
+    }
