@@ -59,10 +59,12 @@ minus_b.setAttribute("disabled", "disabled");
             minus_b.setAttribute("disabled", "disabled");
         }
     }
-    values.onclick = function(){
-        guests.classList.toggle("guests_lists-shown");
-        values.classList.toggle("values_shown");
-    }
+function getEventType(valuesVal){
+    guests.classList.toggle("guests_lists-shown");
+    values.classList.toggle("values_shown");
+}
+
+    values.addEventListener("click", getEventType, false);  
 let guest = " гость";
 
 subm.onclick = function(){
